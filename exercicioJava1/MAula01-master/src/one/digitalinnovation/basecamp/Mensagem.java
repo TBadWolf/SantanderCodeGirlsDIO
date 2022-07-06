@@ -50,11 +50,11 @@ public class Mensagem {
     }
 
     public static void mensagemBoaTarde() {
-        System.out.println("Bom tarde!");
+        System.out.println("Boa tarde!");
     }
 
     public static void mensagemBoaNoite() {
-        System.out.println("Bom noite!");
+        System.out.println("Boa noite!");
     }
 
 }
