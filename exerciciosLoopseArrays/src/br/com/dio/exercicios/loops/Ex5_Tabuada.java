@@ -19,11 +19,13 @@ public class Ex5_Tabuada {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Tabuada: ");
-        int tabuada = scan.nextInt();
+        int tabuada = scan.nextInt(); //atribuindo o valor recebido à variável tabuada.
 
         System.out.println("Tabuada de " + tabuada);
-        for(int i = 1; i <= 10; i = i + 1) {
-            System.out.println(tabuada + " X " + i + " = " + (tabuada*i));
+        for(int i = 0; i <= 10; i = i + 1) {
+            System.out.println(tabuada + " X " + i + " = " + (tabuada*i)); //informa o valor escolhido da variável tabuada
+            //o i significa o sequencial de 0 à 10 e a ultima parte da expressão realiza a conta
+            //do número escolhido (tabuada) * o I, que é encrementado a cada repetição do laço for.
         }
     }
 

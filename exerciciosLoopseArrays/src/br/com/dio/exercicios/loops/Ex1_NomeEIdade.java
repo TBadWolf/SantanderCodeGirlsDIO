@@ -16,14 +16,14 @@ public class Ex1_NomeEIdade {
 
         while(true) {
             System.out.println("Nome: ");
-            nome = scan.next();
+            nome = scan.next(); //atribui a informação recebida na variável nome do tipo string
             if (nome.equals("0")) break;
 
             System.out.println("Idade: ");
-            idade = scan.nextInt();
+            idade = scan.nextInt();//atribui a informação recebida na variável idade do tipo int
         }
 
-        System.out.println("Continua aqui...");
+        System.out.println("Terminando leitura...");
 
     }
 

@@ -12,14 +12,14 @@ public class Ex2_Nota {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        int nota;
+        int nota; //criando a variável nota
 
         System.out.println("Nota: ");
-        nota = scan.nextInt();
+        nota = scan.nextInt(); //atribuindo a informação recebida à variável nota
 
         while(nota < 0 | nota > 10) {
             System.out.println("Nota Inválida! Digite novamente: ");
-            nota = scan.nextInt();
+            nota = scan.nextInt(); //repete a solicitação de dado quando a informação de invalido for mostrada.
         }
 
     }
