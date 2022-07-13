@@ -1,3 +1,5 @@
+package desafiosBásicosJava;
+
 import java.util.Scanner;
 
 public class domino {
